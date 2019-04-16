@@ -9,6 +9,7 @@
         <module name="freetek-config" />
         <module name="freetek-eureka" />
         <module name="freetek_springbc" />
+        <module name="service-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="freetek-consumer1" target="1.8" />
       <module name="freetek-eureka" target="1.8" />
       <module name="freetek_springbc" target="1.5" />
+      <module name="service-one" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

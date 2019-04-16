@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: CONFIG    #boostarp.yml中的spring.application,name = eureka上的config-server端服务名,自身服务名在git的xx.xml中配置
+  cloud:
+    config:
+      discovery:
+        enabled: true       #通过服务名访问config-server
+        service-id: CONFIG  #config-server 服务名
+      profile: dev      #git上配置文件的属性名
+eureka:
+  instance:
+    prefer-ip-address: true  #注册服务的时候使用ip地址，ip地址从host里面找。
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka/
+server:
+  port: 9093

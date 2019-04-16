@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/freetek-config/freetek-config.iml" filepath="$PROJECT_DIR$/freetek-config/freetek-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/freetek-eureka/freetek-eureka.iml" filepath="$PROJECT_DIR$/freetek-eureka/freetek-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/freetek_springbc.iml" filepath="$PROJECT_DIR$/freetek_springbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-one/service-one.iml" filepath="$PROJECT_DIR$/service-one/service-one.iml" />
     </modules>
   </component>
 </project>

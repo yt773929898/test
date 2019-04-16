@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/freetek-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/freetek-config/pom.xml" />
+        <option value="$PROJECT_DIR$/service-one/pom.xml" />
       </list>
     </option>
   </component>
