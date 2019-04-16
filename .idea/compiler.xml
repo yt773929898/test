@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="freetek-config" />
         <module name="freetek-eureka" />
         <module name="freetek_springbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="freetek-config" target="1.8" />
+      <module name="freetek-consumer1" target="1.8" />
       <module name="freetek-eureka" target="1.8" />
       <module name="freetek_springbc" target="1.5" />
     </bytecodeTargetLevel>
