@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: freetek-eureka
+server:
+  port: 9090
+eureka:
+  client:
+    register-with-eureka: false    #不注册自己 单体部署
+    fetch-registry: false   #不获取服务列表
+    #  http://localhost:9090/erueka/
